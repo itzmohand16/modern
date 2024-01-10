@@ -1,0 +1,30 @@
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: none;
+    pointer-events: none;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+  }
+
+  .custom-cursor.scale-up {
+    transform: scale(3);
+    mix-blend-mode: difference;
+    transition: transform 0.3s ease;
+  }
+
+  *{
+    cursor : none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .custom-cursor {
+      display: none;
+    }
+  }
+  

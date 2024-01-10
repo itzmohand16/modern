@@ -1,0 +1,59 @@
+
+/* TIMES ROMAN */
+@font-face {
+    font-family: times-roman;
+    src: url(/fonts/Times/bold.ttf);
+}
+
+.times-roman {
+    font-family: times-roman;
+}
+    
+
+
+@font-face {
+    font-family: times-roman-reg;
+    src: url(/fonts/Times/normal.ttf);
+}
+
+.times-roman-reg {
+    font-family: times-roman-reg;
+}
+
+@media (min-width: 768px) {
+    .md\:times-roman-reg {
+      font-family: times-roma-reg;
+    }
+  }
+
+
+
+/* Yeseva */
+@font-face {
+    font-family: yese;
+    src: url(/fonts/yese/YesevaOne-Regular.ttf);
+}
+
+.yese {
+    font-family: yese;
+}
+
+/* VT */
+@font-face {
+    font-family: vt;
+    src: url(/fonts/VT/VT.ttf);
+}
+
+.vt {
+    font-family: vt;
+}
+
+/* ZEN */
+@font-face {
+    font-family: Zen;
+    src: url(/fonts/Zen/ZenTokyoZoo-Regular.ttf);
+}
+
+.zen {
+    font-family: Zen;
+}
